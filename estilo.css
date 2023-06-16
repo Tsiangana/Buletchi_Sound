@@ -1,0 +1,109 @@
+/* Estilo da página 1 */
+/* Programado por #Eliseu_Zau 03/04/2022 */
+
+/* Classes utilitárias */
+
+.btn-primary{
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 25px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-left: 5px;
+}
+.btn-primary:hover {
+	background: transparent;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0);
+}
+a:hover {
+	color: rgb(2, 2, 2);
+	text-decoration: none;
+}
+
+.principal button{
+	transition: 3s;
+}
+
+.principal button:hover{
+	box-shadow: 0 0 60px #1ebfdc, inset 0 0 30px #1ebfdc;
+	text-shadow: 0 0 15px #1ebfdc;
+	transition: 1s;
+}
+
+/*========================================= inicio ========================================= */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,'Poppins', sans-serif;
+
+}
+a{
+	color: #fff;
+}
+.load{
+	animation: slide 2s;
+}
+.slider{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	animation: slide 35s infinite;
+}
+.content{
+	color: #fff;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.principal h1{
+	font-size: 70px;
+	margin-bottom: 20px;
+	
+}
+
+@keyframes slide{
+	0%{
+		background-image: url('img_slide/1.jpg');
+	}
+	20%{
+		background-image: url('img_slide/1.jpg');
+	}
+	20.01%{
+		background-image: url('img_slide/2.jpg');
+	}
+	40%{
+		background-image: url('img_slide/2.jpg');
+	}
+	40.01%{
+		background-image: url('img_slide/3.jpg');
+	}
+	60%{
+		background-image: url('img_slide/3.jpg');
+	}
+	60.01%{
+		background-image: url('img_slide/4.jpg');
+	}
+	80%{
+		background-image: url('img_slide/4.jpg');
+	}
+	80.01%{
+		background-image: url('img_slide/5.jpg');
+	}
+	100%{
+		background-image: url('img_slide/5.jpg');
+	}
+}

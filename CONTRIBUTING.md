@@ -1,0 +1,3 @@
+Este repositorio nao pode ser usado para fins pessoais.
+Todos direitos autorais reservados para mim.
+Apenas use o repositorio para teres uma nocao de como funciona afim de desenvolveres os seu...
